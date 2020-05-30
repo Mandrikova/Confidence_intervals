@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1590844000196.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "B35319FB",
+    "lastKnownWriteTime" : 1590844062,
+    "last_content_update" : -2147483648,
+    "path" : "C:/Users/Настя/Desktop/diplom/diplom/main.R",
+    "project_path" : "main.R",
+    "properties" : {
+        "cursorPosition" : "47,0",
+        "scrollLine" : "44",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
