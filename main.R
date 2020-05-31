@@ -66,7 +66,7 @@ estimML <- function(Y){
   l0 <- cor(Y[1,], Y[2,], method = "pearson", use = "pairwise.complete.obs")*sqrt(Lambda1*Lambda2)
   l1 <- Lambda1 - l0
   l2 <- Lambda2 - l0
-  # условие на сходимость ряда
+  # условие сходимости гипергеометрического ряда
   if(l1+l2 <= 0) return(NaN)
   est <- mle2(MinusLogLike,
               start = list(lambda0 = l0, lambda1 = l1, lambda2 = l2),
