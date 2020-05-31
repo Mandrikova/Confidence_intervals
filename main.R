@@ -75,3 +75,11 @@ estimML <- function(Y){
               data = list(dataFunLike = Y), method ="L-BFGS-B", optimizer = "optimx")
   return(est)
 }
+
+# df - датафрейм с двумерной выборкой
+estimation <- estimML(df)
+coef(estimation) # оценка параметров
+confint(estimation) # доверительные интервалы для оценок
+# построение профилей правдоподобия
+prof <- profile(estimation)
+plot(prof)
